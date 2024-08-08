@@ -9,6 +9,10 @@ public class EmployeeResponse {
     private String message;
     private Employee data;
 
+    public EmployeeResponse() {
+
+    }
+
     public EmployeeResponse(String status, Employee data, String message) {
         this.status = status;
         this.data = data;

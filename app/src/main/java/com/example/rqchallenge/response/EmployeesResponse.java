@@ -12,6 +12,10 @@ public class EmployeesResponse {
 
     private String message;
 
+    public EmployeesResponse() {
+
+    }
+
     public String getStatus() {
         return status;
     }
